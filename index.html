@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KSRBI | Kalyan Sai Raju — Senior BI & Data Engineer</title>
+<meta name="description" content="Kalyan Sai Raju — Senior BI &amp; Data Engineer. Power BI, DAX, SQL and cloud analytics. Explore reporting experience, interactive sample dashboards and download my résumé.">
+<meta name="theme-color" content="#050505">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23de0645'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-family='Georgia' font-size='10' fill='white'%3EKSRBI%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="bi.css"></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<nav class="nav" aria-label="Main navigation">
+<a href="#main" class="brand" aria-label="Kalyan Sai Raju home">KSRBI</a>
+<a href="#demos">Dashboards</a><a href="#work">Work</a>
+<a href="#experience">Experience</a>
+<a href="#stack">Stack</a>
+<a href="#contact">Contact</a>
+<a href="resume.pdf" download>Résumé ↗</a>
+</nav>
+<main id="main" tabindex="-1">
+<section class="hero hero-editorial" aria-labelledby="intro-title">
+<div class="hero-inner reveal">
+<aside class="intro-panel expertise-panel" aria-labelledby="expertise-heading">
+<span class="panel-kicker">01 / Focus</span>
+<h2 id="expertise-heading">My BI toolkit</h2>
+<ul class="panel-list">
+<li><strong>Visual analytics</strong><span>Power BI · DAX · Power Query</span></li>
+<li><strong>Data modeling</strong><span>Star schemas · Facts · Dimensions</span></li>
+<li><strong>Data engineering</strong><span>SQL · SSIS · BigQuery</span></li>
+<li><strong>Data quality</strong><span>Validation · Reconciliation</span></li>
+</ul>
+<a class="panel-link" href="#stack">Explore tech stack <span aria-hidden="true">↗</span></a>
+</aside>
+<div class="intro-copy">
+<div class="eyebrow">Business intelligence · Hyderabad, India</div>
+<h1 id="intro-title">Kalyan<br>Sai Raju<span class="name-period">.</span></h1>
+<p class="role">Senior BI &amp; Data Engineer</p>
+<p class="lead">From complex data<br>to clear decisions.</p>
+<p class="intro-detail">6+ years connecting data engineering with business intelligence. I build Power BI dashboards, reusable DAX measures, and trusted analytical models across healthcare, media, telecom, and financial services.</p>
+<div class="actions">
+<a class="button" href="https://www.linkedin.com/in/kalyansairaju/" target="_blank" rel="noopener noreferrer">Follow / Connect on LinkedIn ↗</a>
+<a class="button secondary" href="resume.pdf" download>Download résumé ↓</a>
+<a class="button instagram" href="https://www.instagram.com/kalyan.sairaju/" target="_blank" rel="noopener noreferrer">
+<svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7">
+<rect x="3" y="3" width="18" height="18" rx="5"/>
+<circle cx="12" cy="12" r="4"/>
+<circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/>
+</svg> Follow me on Instagram</a>
+</div>
+</div>
+<figure class="intro-photo">
+<img class="portrait" src="photo.jpg" alt="Kalyan Sai Raju, Senior BI and Data Engineer" width="400" height="400" fetchpriority="high">
+<figcaption><span>Built on data. Designed for decisions.</span><span>Power BI · Semantic models · Insights</span></figcaption>
+</figure>
+<aside class="intro-panel industry-panel" aria-labelledby="industry-heading">
+<span class="panel-kicker">02 / Experience</span>
+<h2 id="industry-heading">Industry experience</h2>
+<ul class="panel-list">
+<li><strong>Channel operations</strong><span>Volume · Quality · Reconciliation</span></li>
+<li><strong>Healthcare</strong><span>Claims · Denials · Paid amounts</span></li>
+<li><strong>Media</strong><span>Subscriptions · Customers · Revenue</span></li>
+<li><strong>Banking</strong><span>Customers · Transactions · Reporting</span></li>
+</ul>
+<a class="panel-link" href="#work">View project work <span aria-hidden="true">↗</span></a>
+</aside>
+</div>
+</section>
+<div class="value-strip"><span>▥ &nbsp; Power BI reporting</span><span>ƒx &nbsp; DAX &amp; time intelligence</span><span>◇ &nbsp; Semantic modeling</span><span>⇄ &nbsp; End-to-end data delivery</span></div><div class="shell">
+<section class="section" id="demos" aria-labelledby="demo-heading"><div class="section-heading"><div class="eyebrow">Portfolio lab / 01—03</div><h2 id="demo-heading">Data you can explore.</h2><p>Interactive dashboard concepts inspired by my reporting domains.</p></div><div class="lab"><div class="lab-top"><div><span class="live-dot"></span> ANALYTICS WORKSPACE</div><span class="sample-badge">Synthetic data · Portfolio demonstration</span></div><div class="demo-tabs" role="group" aria-label="Choose dashboard"><button data-demo="claims" aria-pressed="true">01 / Healthcare claims</button><button data-demo="channels" aria-pressed="false">02 / Channel operations</button><button data-demo="subscriptions" aria-pressed="false">03 / Subscription revenue</button></div><div class="dashboard-heading"><div><h3 id="dashboard-title">Healthcare claims overview</h3><p id="dashboard-desc">Explore claim volume, paid amounts and denial rates.</p></div><label>Reporting period<select id="period"><option value="all">Jan – Jun 2026</option><option value="q1">Q1 · Jan – Mar</option><option value="q2">Q2 · Apr – Jun</option></select></label></div><div id="dashboard-results" aria-live="polite"><div class="kpis" id="kpis"></div><div class="charts"><div class="chart-card"><h4 id="chart-title">Monthly claim volume</h4><div id="bars" class="bars"></div></div><div class="chart-card breakdown"><h4 id="breakdown-title">Claim status</h4><div id="breakdown"></div></div></div></div><details class="demo-method"><summary>Model, measures &amp; sample data</summary><p id="model-note"></p><pre id="measure"></pre><div class="table-wrap"><table><caption>Sample monthly dataset used by this dashboard</caption><thead id="data-head"></thead><tbody id="data-body"></tbody></table></div><p>These are browser-built demonstrations using synthetic data, not embedded Power BI reports or client results. Professional experience is described separately below.</p></details></div></section><section class="section" id="work">
+<div class="section-heading">
+<h2>Experience behind the insights.</h2>
+<p>Selected professional work, based on my résumé.</p>
+</div>
+<div class="project-grid"><article class="project"><div><div class="project-meta">Survik Software Pvt. Ltd. · May – Sep 2026</div><h3>Asurion Channels Modernization</h3><p>Power BI reporting for SMS, Direct Mail, Email and POM processing, supported by SQL Server and SSIS workflows.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">SQL Server</span><span class="tag">SSIS</span><span class="tag">Azure DevOps</span></div><details><summary>Explore my contribution</summary><ul><li>Tracked processed volumes, inserts, updates, success/failure, duplicates and missing configurations.</li><li>Developed reusable DAX measures and reporting models with filters and drill-down paths.</li><li>Supported deduplication, null-safe change detection, audit controls and source-to-target reconciliation.</li></ul></details></div><div class="project-side"><span class="case-number">01</span><h4>Channel operations, made visible.</h4><div class="pipeline">Volume → Quality → Reconciliation</div></div></article><article class="project"><div><div class="project-meta">Mirra Healthcare · Mar 2024 – Jan 2026</div><h3>Healthcare Claims Analytics</h3><p>Claims dashboards and reporting models for paid, denied and pending claims, financial amounts and monthly trends.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Power Query</span><span class="tag">ADF</span><span class="tag">SQL</span></div><details><summary>Explore my contribution</summary><ul><li>Built DAX measures for claim counts, distinct members, paid amounts, denial rates and MoM/YoY analysis.</li><li>Developed star-schema models, slicers and drill-through for claims exploration.</li><li>Supported ADF and SSIS loads, 837 healthcare data and reconciliation checks.</li></ul></details></div><div class="project-side"><span class="case-number">02</span><h4>A clearer view of claims.</h4><div class="pipeline">Claims → Model → KPI dashboard</div></div></article><article class="project"><div><div class="project-meta">News Corp / News UK Tech · Jan 2022 – Mar 2024</div><h3>Subscription & Customer Analytics</h3><p>Customer, subscription, payment and revenue datasets for analytical reporting and business KPI monitoring.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">BigQuery</span><span class="tag">GCP</span><span class="tag">Airflow</span><span class="tag">SQL</span></div><details><summary>Explore my contribution</summary><ul><li>Supported Power BI reporting with GCP and BigQuery analytical datasets.</li><li>Built automated data pipelines and processed 13 months of historical data.</li><li>Applied partitioning, clustering and pruning; investigated failed Airflow DAGs.</li></ul></details></div><div class="project-side"><span class="case-number">03</span><h4>Connecting audiences and revenue.</h4><div class="pipeline">Events → BigQuery → Analytics</div></div></article><article class="project"><div><div class="project-meta">NetAmbit · Oct 2019 – Jan 2022</div><h3>Financial Services Data Warehouse</h3><p>SQL Server warehouse and BI reporting for customer, credit-card and financial-services data at East West Bank.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">SQL Server</span><span class="tag">SSIS</span><span class="tag">SSRS</span><span class="tag">T-SQL</span></div><details><summary>Explore my contribution</summary><ul><li>Developed customer, transaction and operational reporting with reusable DAX and drill-down views.</li><li>Built fact/dimension structures, T-SQL objects and SSIS flat-file integration.</li><li>Validated source-to-target results and tuned queries with indexing and execution plans.</li></ul></details></div><div class="project-side"><span class="case-number">04</span><h4>Reliable foundations for reporting.</h4><div class="pipeline">Sources → Warehouse → Reporting</div></div></article></div></section>
+<section class="section" id="experience">
+<div class="section-heading">
+<h2>The journey so far.</h2>
+<p>Business intelligence backed by production data engineering.</p>
+</div>
+<div class="experience-box">
+<article class="job">
+<p class="job-date">May 2026 — Sep 2026</p>
+<div>
+<h3>Senior IT Consultant / Senior BI &amp; Data Engineer</h3>
+<p>Survik Software Pvt. Ltd.</p>
+<p>Client: Bridgetree / Asurion</p>
+</div>
+</article>
+<article class="job">
+<p class="job-date">Mar 2024 — Jan 2026</p>
+<div>
+<h3>Database Developer-I / BI &amp; Data Engineer</h3>
+<p>Mirra Healthcare Services India Pvt. Ltd.</p>
+</div>
+</article>
+<article class="job">
+<p class="job-date">Jan 2022 — Mar 2024</p>
+<div>
+<h3>Data Engineer / BI Developer</h3>
+<p>News Corp</p>
+</div>
+</article>
+<article class="job">
+<p class="job-date">Oct 2019 — Jan 2022</p>
+<div>
+<h3>Software Engineer / SQL &amp; BI Developer</h3>
+<p>NetAmbit</p>
+</div>
+</article>
+</div>
+</section>
+<section class="section" id="stack">
+<div class="section-heading">
+<h2>Tools behind the work.</h2>
+<p>From source systems to semantic models and business decisions.</p>
+</div>
+<div class="logo-showcase">
+<div class="logo-controls">
+<span>My technology toolkit</span>
+<button type="button" id="logo-pause" aria-controls="logo-track" aria-pressed="false" hidden>Pause scrolling</button>
+</div>
+<div class="logo-window">
+<div class="logo-track" id="logo-track">
+<ul class="logo-group" aria-label="Technology toolkit"><li class="logo-card"><span class="logo-image"><span class="bi-symbol" aria-hidden="true">▥</span></span><span><strong>Power BI</strong><small>Dashboards & visual analytics</small></span></li><li class="logo-card"><span class="logo-image"><span class="bi-symbol" aria-hidden="true">ƒx</span></span><span><strong>DAX</strong><small>Measures & time intelligence</small></span></li><li class="logo-card"><span class="logo-image"><span class="bi-symbol" aria-hidden="true">⤨</span></span><span><strong>Power Query</strong><small>Transform & prepare data</small></span></li><li class="logo-card"><span class="logo-image"><span class="bi-symbol" aria-hidden="true">◇</span></span><span><strong>Star schema</strong><small>Facts & dimensions</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-01.svg" alt="" width="42" height="42"></span><span><strong>Google Cloud</strong><small>BigQuery · Storage · Pub/Sub</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-07.svg" alt="" width="42" height="42"></span><span><strong>SQL Server</strong><small>SQL · T-SQL · SSIS</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-03.svg" alt="" width="42" height="42"></span><span><strong>Azure Data Factory</strong><small>ETL & orchestration</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-04.svg" alt="" width="42" height="42"></span><span><strong>Apache Airflow</strong><small>DAGs · Cloud Composer</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-02.svg" alt="" width="42" height="42"></span><span><strong>Visual Studio</strong><small>SSDT</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-09.svg" alt="" width="42" height="42"></span><span><strong>GitHub</strong><small>Version control</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-08.svg" alt="" width="42" height="42"></span><span><strong>Azure DevOps</strong><small>CI/CD</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-06.svg" alt="" width="42" height="42"></span><span><strong>Python</strong><small>Exposure</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-13.svg" alt="" width="42" height="42"></span><span><strong>Looker Studio</strong><small>Reporting</small></span></li></ul><ul class="logo-group logo-copy" aria-hidden="true"><li class="logo-card"><span class="logo-image"><span class="bi-symbol" aria-hidden="true">▥</span></span><span><strong>Power BI</strong><small>Dashboards & visual analytics</small></span></li><li class="logo-card"><span class="logo-image"><span class="bi-symbol" aria-hidden="true">ƒx</span></span><span><strong>DAX</strong><small>Measures & time intelligence</small></span></li><li class="logo-card"><span class="logo-image"><span class="bi-symbol" aria-hidden="true">⤨</span></span><span><strong>Power Query</strong><small>Transform & prepare data</small></span></li><li class="logo-card"><span class="logo-image"><span class="bi-symbol" aria-hidden="true">◇</span></span><span><strong>Star schema</strong><small>Facts & dimensions</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-01.svg" alt="" width="42" height="42"></span><span><strong>Google Cloud</strong><small>BigQuery · Storage · Pub/Sub</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-07.svg" alt="" width="42" height="42"></span><span><strong>SQL Server</strong><small>SQL · T-SQL · SSIS</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-03.svg" alt="" width="42" height="42"></span><span><strong>Azure Data Factory</strong><small>ETL & orchestration</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-04.svg" alt="" width="42" height="42"></span><span><strong>Apache Airflow</strong><small>DAGs · Cloud Composer</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-02.svg" alt="" width="42" height="42"></span><span><strong>Visual Studio</strong><small>SSDT</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-09.svg" alt="" width="42" height="42"></span><span><strong>GitHub</strong><small>Version control</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-08.svg" alt="" width="42" height="42"></span><span><strong>Azure DevOps</strong><small>CI/CD</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-06.svg" alt="" width="42" height="42"></span><span><strong>Python</strong><small>Exposure</small></span></li><li class="logo-card"><span class="logo-image"><img src="technology-13.svg" alt="" width="42" height="42"></span><span><strong>Looker Studio</strong><small>Reporting</small></span></li></ul>
+</div>
+</div>
+</div>
+<div class="tech-grid"><article class="tech"><h3>BI & visual storytelling</h3><div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Power Query</span><span class="tag">KPI cards</span><span class="tag">Drill-through</span><span class="tag">SSRS</span><span class="tag">Looker Studio</span><span class="tag">Tableau</span></div></article><article class="tech"><h3>Models & measures</h3><div class="tags"><span class="tag">Star schema</span><span class="tag">Fact / dimension</span><span class="tag">CALCULATE</span><span class="tag">SUMX</span><span class="tag">Time intelligence</span><span class="tag">MoM / YoY</span><span class="tag">RLS concepts</span></div></article><article class="tech"><h3>Data engineering</h3><div class="tags"><span class="tag">SQL Server</span><span class="tag">T-SQL</span><span class="tag">SSIS</span><span class="tag">ADF</span><span class="tag">ETL/ELT</span><span class="tag">Incremental loads</span><span class="tag">SCD 1/2</span></div></article><article class="tech"><h3>Cloud & delivery</h3><div class="tags"><span class="tag">GCP</span><span class="tag">BigQuery</span><span class="tag">Cloud Storage</span><span class="tag">Pub/Sub</span><span class="tag">Airflow / Composer</span><span class="tag">Git</span><span class="tag">Azure DevOps</span></div></article></div></section>
+</div>
+<section class="contact" id="contact" aria-labelledby="contact-title">
+<span id="profiles" aria-hidden="true"></span>
+<h2 id="contact-title">Contact me.</h2>
+<p>Have an opportunity or a project in mind? Get in touch.</p>
+<div class="contact-details">
+  <a class="contact-card" href="tel:+919292709487">
+    <span class="contact-label">Mobile</span>
+    <span class="contact-value">+91 92927 09487</span>
+    <span class="contact-action">Call me <span aria-hidden="true">↗</span></span>
+  </a>
+  <a class="contact-card" href="mailto:kalyan.sairaj@gmail.com">
+    <span class="contact-label">Email</span>
+    <span class="contact-value">kalyan.sairaj@gmail.com</span>
+    <span class="contact-action">Email me <span aria-hidden="true">↗</span></span>
+  </a>
+</div>
+<div class="socials">
+<a href="https://www.linkedin.com/in/kalyansairaju/" target="_blank" rel="noopener noreferrer">Follow / Connect on LinkedIn ↗</a>
+<a href="https://github.com/kalyansairaju/kalyan_dev" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+<a class="instagram" href="https://www.instagram.com/kalyan.sairaju/" target="_blank" rel="noopener noreferrer">
+<svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7">
+<rect x="3" y="3" width="18" height="18" rx="5"/>
+<circle cx="12" cy="12" r="4"/>
+<circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/>
+</svg> Follow me on Instagram</a>
+<a href="resume.pdf" download>Download résumé ↓</a>
+</div>
+<p class="resume-note">Senior BI &amp; Data Engineer résumé · PDF</p>
+</section>
+</main>
+<footer class="shell">
+<span>© 2026 Kalyan Sai Raju</span>
+<span>Power BI · DAX · SQL · Cloud Analytics</span>
+</footer>
+<script src="script.js" defer>
+</script>
+<script src="dashboards.js" defer></script></body>
+</html>
